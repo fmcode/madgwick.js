@@ -1,0 +1,25 @@
+{
+	"name": "aardvark-madgwick",
+	"private": true,
+	"version": "0.0.0",
+	"repository": "https://github.com/fmcode/madgwick.js.git",
+	"devDependencies": {
+		"karma": "latest",
+		"protractor": "latest",
+		"http-server": "latest",
+		"bower": "latest",
+		"shelljs": "latest",
+		"karma-junit-reporter": "latest",
+		"connect": "latest",
+		"connect-livereload": "latest",
+		"opn": "latest",
+		"serve-index": "latest",
+		"serve-static": "latest",
+		"tiny-lr": "latest",
+		"watch": "latest"
+	},
+	"scripts": {
+		"postinstall": "bower update",
+		"prestart": "npm update"
+	}
+}

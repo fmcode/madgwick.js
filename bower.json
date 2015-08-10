@@ -1,0 +1,28 @@
+{
+	"name": "aardvark visualizer",
+	"version": "1.0.0",
+	"authors": [
+		"fmcode"
+	],
+	"private": true,
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"underscore": "latest",
+		"angular": "latest",
+		"angular-route": "latest",
+		"angular-messages": "latest",
+		"angular-material": "latest",
+		"angular-filter": "latest",
+		"material-design-iconic-font": "latest",
+		"material-design-color-palette": "latest",
+		"three.js": "latest",
+		"threex.crates": "latest",
+		"angular-material-data-table": "latest"
+	}
+}
